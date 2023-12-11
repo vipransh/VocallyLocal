@@ -10,7 +10,7 @@ function Main() {
     <div className=''>
     <Hero/>
     <Banner/>
-        <div className="container mx-auto flex px-2 py-24 md:flex-row-reverse flex-col items-center font-serif ">
+        <div className="container mx-auto flex px-2 py-24 md:flex-row-reverse flex-col items-center font-serif gap-4">
     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-end  md:text-left mb-10 md:mb-0 items-center text-center ">
     <div className='lg:flex-grow   flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center '>
     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 tracking-wider">Support local businesses
@@ -23,7 +23,7 @@ function Main() {
       <img className=" object-cover object-center rounded" alt="hero" src={vendorImage1}/>
     </div>
   </div>
-  <div className="container mx-auto flex px-2 py-24 md:flex-row flex-col-reverse items-center font-serif ">
+  <div className="container mx-auto flex px-2 py-24 md:flex-row flex-col-reverse items-center font-serif gap-4">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 tracking-wider">Convenient Shopping <br></br>experience
       </h1>
