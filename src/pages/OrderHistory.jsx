@@ -35,7 +35,7 @@ const fetchOrders=async()=>{
   } 
 }
   return (
-    <div className='mt-20 py-6 px-10'>
+    <div className='mt-20 py-6 px-1 md:px-10'>
     <div className="flex justify-start item-start flex-col mb-3">
     <h1 className="text-3xl dark:text-white lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800">Order History</h1>
   </div>
