@@ -46,7 +46,7 @@ function ViewStore() {
         <div className='w-full py-2 px-4 gap-3'>
           <div className='flex flex-row items-center justify-between w-full '>
             <h1 className='title-font  text-xl  font-medium text-gray-900 mb-2'>{storeData?.storeName}</h1>
-            <p className='leading-relaxed text-gray-500'>2.2KM</p>
+            <p className='leading-relaxed text-gray-500'>{products && products.length} Products</p>
           </div>
           <p className='leading-relaxed text-gray-500'>{storeData?.storeAddress} </p>
           
