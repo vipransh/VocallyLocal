@@ -2,6 +2,10 @@
 
 Welcome to Vocally Local, a robust web application designed not only to enhance the shopping experience for users but also to empower local businesses and individuals by offering a platform to open and manage their online stores. Built with React, Vite, Firebase, and Tailwind CSS, this project enables users to discover local stores, check distances, and place orders seamlessly. Shop admins have access to features such as adding new products, accepting orders, and checking the geolocation for delivery.
 
+
+https://github.com/vipransh/VocallyLocal/assets/30025222/7454804e-f3d5-49d9-95ab-11e6100f6e30
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
