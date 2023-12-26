@@ -69,11 +69,11 @@ const fetchOrders=async()=>{
               <div className='flex flex-row items-center justify-between  md:w-auto
               w-full md:flex-col gap-10  h-full'>
               <p className="text-base dark:text-white xl:text-lg leading-6 text-gray-800">Q-{data?.productDetails?.quantity}</p>
-              <p className="text-base dark:text-white  leading-6 text-gray-800">P- ${data?.productDetails?.price}</p>
+              <p className="text-base dark:text-white  leading-6 text-gray-800">P- &#8377;{data?.productDetails?.price}</p>
               </div>
               <div className='flex flex-row justify-between  md:w-auto
               w-full md:flex-col gap-10  h-full'>
-              <p className="text-base dark:text-white xl:text-lg font-semibold leading-6 text-gray-800">Total ${(data?.productDetails?.quantity * data?.productDetails?.price)}</p>
+              <p className="text-base dark:text-white xl:text-lg font-semibold leading-6 text-gray-800">Total &#8377;{(data?.productDetails?.quantity * data?.productDetails?.price)}</p>
               </div>
             </div>
             </div>
